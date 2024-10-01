@@ -1,3 +1,9 @@
-public static void main(String[] args) {
-    System.out.println("Halo, dunia!"); // Menampilkan pesan di konsol
+public class Penjumlahan {
+
+    public static void main(String[] args) {
+        int angka1 = 5;
+        int angka2 = 10;
+        int hasil = angka1 + angka2;
+        System.out.println("Hasil penjumlahan: " + hasil);
+    }
 }
