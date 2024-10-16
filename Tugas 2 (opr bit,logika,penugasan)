@@ -1,0 +1,54 @@
+public class OperatorBit {
+    public static void main(String[] args) {
+        int a = 5; // 00000101 dalam biner
+        int b = 2; // 00000010 dalam biner
+
+        // Operator AND (&)
+        int resultAnd = a & b; 
+
+        System.out.println("a & b: " + resultAnd); // Output: a & b: 0
+    }
+}
+
+public class OperatorLogika {
+
+    public static void main(String[] args) {
+
+        // Deklarasi variabel
+        boolean a = true;
+        boolean b = false;
+
+        // Operator AND (&&)
+        System.out.println("a && b: " + (a && b)); // Output: false
+
+        // Operator OR (||)
+        System.out.println("a || b: " + (a || b)); // Output: true
+
+        // Operator NOT (!)
+        System.out.println("!a: " + (!a)); // Output: false
+        System.out.println("!b: " + (!b)); // Output: true
+
+        // Contoh penggunaan dalam kondisi if
+        if (a && !b) {
+            System.out.println("Kondisi a && !b terpenuhi");
+        } else {
+            System.out.println("Kondisi a && !b tidak terpenuhi"); // Output: Kondisi a && !b terpenuhi
+        }
+    }
+}
+
+public class OperatorPenugasan {
+
+    public static void main(String[] args) {
+
+        int angka = 10;
+
+        // Operator penugasan "="
+        angka = 15; // Memberikan nilai 15 ke variabel 'angka'
+        System.out.println("angka = " + angka); // Output: angka = 15
+
+        // Operator penugasan "+="
+        angka += 5; // Menambahkan 5 ke 'angka' dan menyimpan hasilnya di 'angka'
+        System.out.println("angka += 5: " + angka); // Output: angka += 5: 20
+    }
+}
